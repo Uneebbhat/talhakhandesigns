@@ -1,0 +1,141 @@
+@media screen and (max-width: 960px) {
+    .hero-section-wrapper {
+        padding: 100px;
+    }
+
+    .talk-wrapper {
+        padding: 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .hero-section-wrapper {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .talk-wrapper {
+        flex-direction: column;
+        padding: 80px 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    .process-wrapper {
+        flex-direction: column;
+        padding: 80px 20px;
+    }
+
+    .process-wrapper .about-process {
+        margin-bottom: 50px;
+    }
+
+    .services-card-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .tools-wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 20px;
+    }
+
+    .tools-wrapper .tools-img {
+        margin-top: 50px;
+    }
+
+    .tools-wrapper .tools-img img {
+        padding: 10px 0;
+    }
+
+    footer {
+        padding: 80px 50px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .process-wrapper .plan-wrapper .plan-list-wrapper {
+        margin-right: 0;
+        width: 20%;
+    }
+
+    .service-wrapper {
+        padding: 80px 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tools-wrapper .tools-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:500px) {
+    .navbar .hamburger img {
+        display: inline-block;
+        visibility: visible;
+    }
+
+    .navbar .hamburger .close {
+        display: none;
+        visibility: hidden;
+    }
+
+    .navbar ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        background-color: #323232;
+        width: 100%;
+        height: 70vh;
+        padding: 50px 0;
+    }
+
+    .navbar ul li a {
+        color: rgb(255, 255, 255);
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar ul li a.work-li {
+        position: absolute;
+        top: 80px;
+        left: 35%;
+        right: 0;
+        font-size: 26px;
+    }
+
+    .navbar ul li a.process-li {
+        position: absolute;
+        top: 180px;
+        left: 35%;
+        right: 0;
+        font-size: 26px;
+    }
+
+    .navbar ul li a.services-li {
+        position: absolute;
+        top: 280px;
+        left: 35%;
+        right: 0;
+        font-size: 26px;
+    }
+
+    .plane-img {
+        left: 5px;
+        margin-top: 20px;
+    }
+
+    .plane-img img {
+        width: 30px;
+        height: auto;
+    }
+}
